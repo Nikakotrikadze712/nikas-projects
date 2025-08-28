@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section:hover{
+    scale: 1.1;
+    transition: scale 1s;
+}
+
+
+section:active{
+    background-color: green;
+    transform: rotateY(90deg);
+    transition: background-color 0.4s transform 0,6s;
+    position: absolute;
+    z-index: 1; 
+}

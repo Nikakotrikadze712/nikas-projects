@@ -1,0 +1,13 @@
+.main{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+
+
+.child{
+    width: 150;
+    height: 150;
+    background-color: red
+}

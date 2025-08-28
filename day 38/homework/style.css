@@ -1,0 +1,6 @@
+.dashed-line{
+    color: #000;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: dashed;
+}

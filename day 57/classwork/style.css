@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    padding: 100px;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: red;
+    transition: 1s;
+}
+
+
+div:hover{
+    transform: rotate(1480deg);
+    scale: 1.5;
+}

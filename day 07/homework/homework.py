@@ -1,0 +1,8 @@
+str(input("enter your name"))
+print("nika")
+int(input("enter your age"))
+print(13)
+float(input("enter your favourite number"))
+print(3.8)
+bool(input("enter your last name"))
+print ("kotrikadze")

@@ -1,0 +1,5 @@
+.dashed-border{
+    border-top: 2px dashed red;
+    border-bottom: 2px dashed red;
+    padding: 10px;
+}

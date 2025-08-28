@@ -1,0 +1,25 @@
+.lemon {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(to right, #f7d45f, #f9e076);
+    border-radius: 50% / 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 50px auto;
+}
+.lemon::before, .lemon::after {
+    content: '';
+    position: absolute;
+    background: #f4c64e;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.lemon::before {
+    left: -15px;
+}
+.lemon::after {
+    right: -15px;
+}

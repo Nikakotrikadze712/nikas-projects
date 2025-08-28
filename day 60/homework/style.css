@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section{
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+p{
+    opacity: 60%;
+    
+}
+
+
+img{
+    width: 60px;
+    font-weight: 400;
+}
+
+
+button{
+    border: none;
+    border-radius: 30px;
+    width: 110px;
+    height: 35px;
+    font-weight: 700;
+    transition: 1 s;
+}
+
+
+div{
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+
+.div1{
+    background-color: #e28525;
+    width: 280px;
+    height: 400px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 30px;
+}
+
+
+.div2{
+    background-color: #016972;
+    width: 280px;
+    height: 400px;
+    padding: 30px;
+}
+
+
+.div3{
+    background-color: #00403f;
+    width: 280px;
+    height: 400px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 30px;
+}
+
+
+.div1 button{
+    color: #e28525;
+}
+
+
+.div1 button:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: #e28525;
+    cursor: pointer;
+}
+
+
+.div2 button{
+    color: #016972;
+}
+
+
+.div2 button:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: #016972;
+    cursor: pointer;
+}
+
+
+.div3 button{
+    color: #00403f;
+}
+
+
+.div3 button:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: #00403f;
+    cursor: pointer;
+}

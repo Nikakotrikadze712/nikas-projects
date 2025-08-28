@@ -1,0 +1,152 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.card {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.result {
+    background: linear-gradient(180deg, #7755FF, #2F2CE9);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.result h3 {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.score {
+    background: rgba(255, 255, 255, 0.1);
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score .big {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.summary {
+    padding: 30px;
+    width: 50%;
+}
+
+.summary h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.reaction {
+    background: rgba(255, 87, 87, 0.1);
+    color: #ff5757;
+}
+
+
+.reaction:hover{
+    background-color: rgb(196, 255, 47);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.memory {
+    background: rgba(255, 176, 31, 0.1);
+    color: #ffb01f;
+}
+
+
+.memory:hover{
+    background-color: rgb(196, 255, 47);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.verbal {
+    background: rgba(0, 189, 145, 0.1);
+    color: #00bd91;
+}
+
+
+.verbal:hover{
+    background-color: rgb(196, 255, 47);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.visual {
+    background: rgba(17, 37, 212, 0.1);
+    color: #1125d4;
+}
+
+
+.visual:hover{
+    background-color: rgb(196, 255, 47);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #303b59;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #2f2ce9;
+    transition: 0.5s;
+}

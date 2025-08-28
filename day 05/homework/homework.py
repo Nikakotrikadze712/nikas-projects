@@ -1,0 +1,7 @@
+print(str("13"))
+print(int(16))
+print(str("house"))
+print(str("12"))
+print(float(3.9))
+print(float(10/7))
+print(int(4*6))

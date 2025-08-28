@@ -1,0 +1,64 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+
+.div1{
+    position: relative;
+    left: 100px;
+}
+
+
+.div2{
+    position: relative;
+    left: 200px;
+}
+
+
+.div3{
+    position: relative;
+    left: 300px;
+}
+
+
+.div4{
+    position: relative;
+    left: 400px;
+}
+
+
+.div5{
+    position: relative;
+    left: 500px;
+}
+
+
+.div6{
+    position: relative;
+    left: 400px;
+}
+
+
+.div7{
+    position: relative;
+    left: 300px;
+}
+
+
+.div8{
+    position: relative;
+    left: 200px;
+}
+
+
+.div9{
+    position: relative;
+    left: 100px;
+}
+
+
+.div10{
+    position: static;
+}

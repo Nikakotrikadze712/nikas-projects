@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: large;
+    border-radius: 5%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+button:hover{
+    color: black;
+    background-color: greenyellow;
+}
+
+
+button:active{
+    color: red;
+    background-color: blue;
+    transform: rotate(360deg);
+    scale: 1.5;
+}

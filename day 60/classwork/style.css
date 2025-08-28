@@ -1,0 +1,90 @@
+body {
+    background-image: url('./bg-hero-desktop\(1\).svg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c7f107;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-header {
+    background-color: white;
+    border: 1px solid #ff52bf;
+    color: #ff52bf;
+}
+
+.btn-primary {
+    background-color: #ff52bf;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-image {
+    width: 45%;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.feature img {
+    width: 40%;
+}
+
+.feature-text {
+    width: 50%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+footer {
+    background-color: #00252e;
+    color: white;
+    padding: 20px 0;
+}
