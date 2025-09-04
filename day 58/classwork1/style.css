@@ -1,0 +1,14 @@
+.div1{
+    width: 400px;
+    height: 400px;
+    animation: div-animation 2s ;
+}
+
+@keyframes div-animation{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}

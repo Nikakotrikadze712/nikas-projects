@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 150px 0px 150px;
+    gap: 100px;
+}
+
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+li{
+    font-size: 16px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+
+.hddr-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+}
+
+
+.hddr-div1{
+    display: flex;
+    align-items: center;
+}
+
+
+.hddr-div2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.div1{
+    background-color: #F0EFEB;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 554px;
+    padding: 0px 120px 00px 140px;
+}
+
+
+.div1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div2-1{
+    display: flex;
+    padding: 40px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.div2-2{
+    width: 100%;
+    padding: 50px 0px 80px 100px;
+}
+
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px 0px 0px 0px;
+}
+
+
+.div4-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.div4-2{
+    padding: 0px 120px 0px 120px;
+}
+
+
+.div5{
+    padding: 80px 0px 0px 0px;
+}
+
+
+.div6{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+}
+
+
+.footer-div{
+    background-color: #000;
+    padding: 40px 60px 10px 60px;
+}
+
+
+.img1{
+    width: 600px;
+    height: 521px;
+}
+
+
+.img2{
+    width: 1064px;
+    height: 729px;
+}
+
+
+.h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+.h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.p1{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.p2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.p3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.p4{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+.btn1{
+    width: 129px;
+    height: 36px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: 400;
+}

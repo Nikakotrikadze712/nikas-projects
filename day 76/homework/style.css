@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edfeff;
+}
+
+
+.main-div{
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 300px 300px;
+}
+
+
+.child-div1{
+    background-color: #fff;
+    grid-column: span 2;
+}
+
+
+.child-div2{
+    background-color: #2aacae;
+}
+
+
+.child-div3{
+    background-color: #29e9ed;
+}
+
+
+h1{
+    font-size: 16px;
+}
+
+
+p{
+    font-size: 12px;
+}

@@ -1,0 +1,39 @@
+.main-div{
+    display: grid;
+    grid-template-rows: 150px 300px 150px;
+    grid-template-columns: 300px 150px 150px 150px;
+    border: 1px solid orange;
+    gap: 5px;
+}
+
+
+.div1{
+    grid-column: span 3;
+    background-color: purple;
+}
+
+
+.div2{
+    grid-row: span 3;
+    background-color: lime;
+}
+
+
+.div3{
+    grid-column: span 2;
+    background-color: blue;
+}
+
+
+.div4{
+    grid-column: span 2;
+    background-color: orange;
+}
+
+
+.div5{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    background-color: brown;
+}

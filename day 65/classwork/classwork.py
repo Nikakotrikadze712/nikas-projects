@@ -1,1 +1,1 @@
-#no classwork
+#codewars day
