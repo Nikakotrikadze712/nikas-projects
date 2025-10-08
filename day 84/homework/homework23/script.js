@@ -1,4 +1,4 @@
-const monthNumber = Number(prompt("შეიყვანეთ თვეს ნომერი (1-12):"));
+const monthNumber = Number(prompt("შეიყვანეთ თვის ნომერი (1-12):"));
 
 if (monthNumber === 1) {
     alert("იანვარი - ზამთარი");
