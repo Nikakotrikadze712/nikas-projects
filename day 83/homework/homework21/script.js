@@ -2,7 +2,7 @@
 // if შესრულდება, თუ პირობა მართალია
 //else if შესრულდება, თუ პირველი პირობა არ შესრულდა, მაგრამ ეს პირობა მართალია
 //else  შესრულდება, თუ არცერთი პირობა არ შესრულდა
-let age = Number(prompt("enter your age: "));
+let age = Number(prompt("enter your age: "))
 if (age < 18) {
     console.log("შენ ხარ არასრულწლოვანი")
 } 
