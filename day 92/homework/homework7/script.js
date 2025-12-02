@@ -3,14 +3,13 @@ let list = [[1, 0, 0, 1, 0],[0, 1, 0, 0, 0],[0, 1, 0, 0, 1]]
 
 let index1 = []
 
-for (let i = 0;i < list.length;i++) {
-    let index3 = ""
-
-    for (let j = 0;j < list[i].length;j++) {
-        index3 += list[i][j]
+for (let i = 0; i < list.length; i++) {
+    let index2 = 0
+    
+    for (let j = 0; j < list[i].length; j++) {
+        index2 = index2 * 2 + list[i][j]
     }
-
-    let index2 = parseInt(index3, 2)
+    
     index1.push(index2)
 }
 
