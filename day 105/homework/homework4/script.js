@@ -1,43 +1,31 @@
-let password = Number(prompt('enter password(number): '))
+//გააკეთეთ პატარა თამაში. მომხმარებელმა უნდა შემოიტანოს 1-დან 100-მდე რენდომ რიცხვი. და უნდა გამოიცნოს რენდომ რიცხვი. იმ შემთხვევაში თუ მომხმარებლის შემოტანილ რიცხვს და ჩაფიქრებულ რიცხვს შორის შუალედი 10-ზე ნაკლებია. მიანიშნოს მომხმარებელს რომ გამოცნობასთან ძალიან ახლოს არის. სხვა შემთხვევაში უთხრას მეტია თუ ნაკლები.
+let number = Math.floor(Math.random() * 100) + 1
 
-let score = 0
-let temp = password
-let length = 0
-let sum = 0
+let guess = Number(prompt('Enter number 1-100: '))
 
-if (password >= 0 || password < 0) {
-    while (temp > 0) {
-        let digit = temp % 10
-        sum = sum + digit
-        temp = Math.floor(temp / 10)
-        length = length + 1
-    }
-
-    if (length >= 6) {
-        score = score + 10
-    }
-    else if (length >= 3 && length < 6) {
-        score = score + 5
-    }
-
-    if (sum > 20) {
-        score = score + 10
-    }
-    else if (sum >= 15 && sum <= 20) {
-        score = score + 5
-    }
-
-    if (score > 15) {
-        alert('password is strong')
-    }
-    else if (score >= 10 && score <= 15) {
-        alert('average')
-    }
-    else {
-        alert('password is weak')
-    }
-
+if (guess === number) {
+    alert('You win!')
 }
 else {
-    alert('enter numbers')
+
+    let gap = 0
+
+    if (guess > number) {
+        gap = guess - number
+    }
+    else {
+        gap = number - guess
+    }
+
+    if (gap < 10) {
+        alert('You are very close!')
+    }
+    else {
+        if (guess > number) {
+            alert('Too high!')
+        }
+        else {
+            alert('Too low!')
+        }
+    }
 }

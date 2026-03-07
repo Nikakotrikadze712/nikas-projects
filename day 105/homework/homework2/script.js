@@ -1,7 +1,16 @@
-let list = [15, 'hello', true, 3.14, 'world', false]
+//შექმენით ცვლადი რომლის მნიშვნელობაც იქნება false. შემდეგ მეორე ცვლადში შეინახეთ ეს ცვლადი იმ შემთხვევაში თუ ექნება მნიშვნელობა, სხვა შემთხვევაში თქვენი სახელი. კომენტარის სახით ახსენით რას გამოიტანს და რატომ
+let Value = false
 
-let value = Math.floor(Math.random() * list.length)
+let result = ''
 
-let random = list [value]
+if (Value) {
+    result = Value
+}
 
-console.log(random)
+else {
+    result = 'nika'
+}
+console.log(result)
+
+// result გამოიტანს 'nika'-ს რადგან Value არის false და if-ის პირობა არ შესრულდება
+// ამიტომ შესრულდება else და result გახდება 'nika'

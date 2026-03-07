@@ -1,30 +1,8 @@
-let number = Math.floor(Math.random() * 100) + 1
+//შექმენით სია, სადაც იქნება ნებისმიერი ტიპის მონაცემი. და წამოიღეთ რენდომულად რომელიმე ინდექსზე მყოფი სიმბოლო.
+let list = [15, 'hello', true, 3.14, 'world', false]
 
-let guess = Number(prompt('Enter number 1-100: '))
+let value = Math.floor(Math.random() * list.length)
 
-if (guess === number) {
-    alert('You win!')
-}
-else {
+let random = list [value]
 
-    let gap = 0
-
-    if (guess > number) {
-        gap = guess - number
-    }
-    else {
-        gap = number - guess
-    }
-
-    if (gap < 10) {
-        alert('You are very close!')
-    }
-    else {
-        if (guess > number) {
-            alert('Too high!')
-        }
-        else {
-            alert('Too low!')
-        }
-    }
-}
+console.log(random)
