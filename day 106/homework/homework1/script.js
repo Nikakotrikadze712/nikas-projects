@@ -1,3 +1,4 @@
+//გააკეთეთ მარტივი კალკულატორი switch / case -ების გამოყენებით.
 let num1 = Number(prompt('enter first number: '))
 let num2 = Number(prompt('enter second number: '))
 let operator = prompt("enter operator:'+, -, *, /")
