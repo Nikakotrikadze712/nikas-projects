@@ -17,6 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 16px 180px;
+    flex-wrap: wrap;
 }
 
 
@@ -32,6 +33,20 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.div3,
+.div4,
+.div5,
+.div7,
+.div8,
+.div9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 
@@ -226,6 +241,12 @@ li:hover{
 }
 
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .img1{
     width: 70px;
     height: 26px;
@@ -299,7 +320,8 @@ li:hover{
 
 
 button:hover{
-    background-color: #bb1818;
+    color: #a6f16c;
+    background-color: #000000;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -406,4 +428,54 @@ span{
 .p5{
     font-size: 22px;
     font-weight: 500;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .button1 {
+        width: 100%;
+    }
+
+    /* Stack sections vertically */
+    .div3,
+    .div4,
+    .div5,
+    .div7,
+    .div8,
+    .div9 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .button2 {
+        width: 100%;
+    }
+
+    /* Images spacing */
+    img {
+        margin-top: 15px;
+    }
 }
