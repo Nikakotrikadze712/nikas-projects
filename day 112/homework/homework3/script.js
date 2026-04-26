@@ -28,3 +28,12 @@ let store = {
 }
 
 console.log(store.totalPrice)
+store.addItem({ name: 'pear', price: 4, qty: 3 })
+console.log(store._items)
+console.log(store.totalPrice)
+store.removeItem(0)
+console.log(store._items)
+console.log(store.totalPrice)
+store.clear()
+console.log(store._items)
+console.log(store.totalPrice)

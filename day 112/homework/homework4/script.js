@@ -5,7 +5,7 @@ let user = {
         return this._email
     },
     set email(newEmail) {
-        if (newEmail.includes('@') && newEmail.includes(".")) {
+        if (newEmail.includes('@') && newEmail.includes('.')) {
             this._email = newEmail
         }
         else {
