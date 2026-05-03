@@ -1,6 +1,6 @@
 //გაქვს profile მოთხოვნები: _username private setter: ყველა ასო უნდა იყოს პატარა (lowercase) getter: აბრუნებს "@" + username
 const profile = {
-    _username: '',
+    _username: 'nika123',
     set username(value) {
         this._username = value.toLowerCase()
     },
@@ -9,5 +9,4 @@ const profile = {
     }
 }
 
-profile.username = 'nika123'
 console.log(profile.username)

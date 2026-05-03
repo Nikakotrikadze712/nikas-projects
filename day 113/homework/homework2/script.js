@@ -1,6 +1,6 @@
 //გაქვს weather(მოიძიე როგორ გადავიყვანოთ F to C ) მოთხოვნები: _celsius private setter ცელსიუსზე getter fahrenheit დააბრუნოს გადაყვანილი მნიშვნელობა
 const weather = {
-    _celsius: 0,
+    _celsius: 20,
     set celsius(value) {
         this._celsius = value
     },
@@ -9,5 +9,4 @@ const weather = {
     }
 }
 
-weather.celsius = 20
 console.log(weather.fahrenheit)
