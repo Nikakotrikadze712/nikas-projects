@@ -1,5 +1,5 @@
 //შექმენით ფუნქცია რომელიც დააბრუნებს არგუმენტად გადაცემული რიცხვი მარტივია თუ არა.
-let func = num => {
+function func(num) {
     if (num <= 1) {
         return false
     }
@@ -11,4 +11,4 @@ let func = num => {
     return true
 }
 
-console.log (func (10))
+console.log(func(10))
